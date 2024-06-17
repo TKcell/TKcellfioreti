@@ -1,0 +1,319 @@
+/*gerais */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+.carousel-item h2{
+  color: black;
+}
+
+p, li{
+    color:black;
+    font-size: 14px;
+}
+
+header, .navbar {
+    background-color:black
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar-brand:hover{
+    color:white;
+}
+
+#navbar-links a{
+    color:white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+
+    padding: 1rem .8rem;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption{
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: red;
+}
+
+.main-btn {
+    background-color: cyan;
+    color: red; /* Cor correta */
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+
+.main-btn:hover{
+    text-decoration: none;
+    color: red;
+    background-color: transparent;
+    border-color: red;
+}
+
+.carousel-indicators .active{
+    background-color: white;
+}
+
+#about-area{
+    background-color: white;
+}
+
+.main-title{
+ color: black;
+ margin: 0 0 65px 0;
+ font-size: 40px;
+ text-align: center;
+}
+
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid black;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+
+.about-title{
+    font-size: 17px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li{
+    line-height: 30px;
+}
+
+#about-list i {
+    color: red;
+    margin-right: 15px; 
+}
+
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4{
+    transition: .5s;
+}
+
+.service-box i{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover >i, .service-box:hover> h4{
+    color:red;
+}
+
+.circle-box div{
+    padding: 0 40px;
+}
+
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+
+.card-body{
+    text-align: center;
+}
+
+#contact-area{
+    text-align: center;
+}
+
+.contact-box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid red;
+}
+
+/* Estilo para a barra de pesquisa */
+.form-control {
+    width: 300px; /* largura desejada para a barra de pesquisa */
+}
+
+/* Estilo para o botão de pesquisa */
+.btn {
+    border-radius: 0; /* borda do botão sem arredondamento */
+    /* Outros estilos de acordo com o seu design */
+}
+
+/* Estilos para a barra de pesquisa */
+.search-container {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-container input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-container button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .search-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilos para os resultados da pesquisa */
+  #searchResults {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  #resultsList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #resultsList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  #resultsList li:last-child {
+    border-bottom: none;
+  }
+  
+  #resultsList li:hover {
+    background-color: #f9f9f9;
+  }
+  
+
+.contact-title{
+    font-weight: bold;
+    color: red;
+}
+
+.contact-box p{
+    font-size: 16px;
+}
+
+#msg-box p{
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea{
+    margin-bottom: 15px;
+    border-radius: 0;
+} 
+
+#contact-form .main-btn{
+    width: 120px;
+    height: 50px;
+}
+
+#copy-area{
+    background-color: rgb(194, 187, 187);
+}
+#copy-area .container{
+padding: 10px 0;
+text-align: center;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+}
+
+#copy-area .container a{
+    font-weight: bold;
+    color:black
+}
+
+#copy-area .container a:hover{
+    text-decoration: none;
+    color: red;
+}
